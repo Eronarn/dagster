@@ -36,7 +36,7 @@ def _do_setup(name='dagster-graphql'):
             'License :: OSI Approved :: Apache Software License',
             'Operating System :: OS Independent',
         ],
-        packages=find_packages(exclude=['test']),
+        packages=find_packages(exclude=['dagster_graphql_tests']),
         install_requires=[
             'graphene>=2.1.3',
             'gevent-websocket==0.10.1',
